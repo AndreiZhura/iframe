@@ -1,4 +1,4 @@
 # iframe
 
-[Моя работа на github](https://github.com/AndreiZhura/iframe)
+[Моя работа на github](git@github.com:AndreiZhura/iframe.git)
  
