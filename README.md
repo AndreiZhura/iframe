@@ -1,4 +1,4 @@
 # iframe
 
-[Моя работа на github](https://github.com/AndreiZhura/iframe/tree/master)
+[Моя работа на github](https://github.com/AndreiZhura/iframe)
  
