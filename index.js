@@ -1,5 +1,6 @@
 let kmCounter = document.querySelector('#counter-km');
 let dayCounter = document.querySelector('#counter-days');
+const citises = document.querySelector('.cities')
 
 let kostromaOffset = document.querySelector('#city-kostroma').offsetTop;
 let ekbOffset = document.querySelector('#city-ekb').offsetTop;
@@ -13,12 +14,15 @@ document.addEventListener('scroll', function() {
     if (scrollY <= kostromaOffset + 200) {
         kmCounter.textContent = 0;
         dayCounter.textContent = 0;
+        citises.style.background = "white";
     } else if (scrollY <= ekbOffset + 500) {
         kmCounter.textContent = 376;
         dayCounter.textContent = 1;
+        citises.style.background = "red";
     } else if (scrollY <= omskOffset + 500) {
         kmCounter.textContent = 1819;
         dayCounter.textContent = 2;
+        citises.style.background = "green";
     } else if (scrollY <= yablPerevalOffset + 500) {
         kmCounter.textContent = 6110;
         dayCounter.textContent = 4;

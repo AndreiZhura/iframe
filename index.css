@@ -5,6 +5,10 @@
     src: url(https://code.s3.yandex.net/web-code/fonts/EB-Garamond.woff);
 }
 
+.body {
+    background-color: aquamarine;
+}
+
 .tsoy {
     border: 10px solid red;
 }
